@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+
+
+</head>
+<body>
+
+
+<h1 id="h1">This is a heading</h1>
+
+<p>This is a paragraph</p>
+<p>This is another paragraph</p>
+
+<ul>
+    <li>this is a list item</li>
+    <li>this is a list item</li>
+    <li>this is a list item</li>
+</ul>
+
+<script>
+    var x = 30;
+    var y = 40;
+    var z = 50;
+
+    if(x>y){
+        document.write('Working');
+    } else {
+        document.write('Not working');
+    }
+
+    document.write(x+=y);
+    document.write('<br />');
+    document.write(x-=y);
+    document.write('<br />');
+    document.write(x*=y);
+    document.write('<br />');
+    document.write(x/=y);
+    document.write('<br />');
+    document.write(x%=y);
+    
+    document.write('<br />');
+    document.write('--------------');
+    document.write('<br />');
+    
+    document.write(x>y);
+    document.write('<br />');
+    document.write(x>=y);
+    document.write('<br />');
+    document.write(x<y);
+    document.write('<br />');
+    document.write(x<=y);
+    document.write('<br />');
+    document.write(x!=y);
+    document.write('<br />');
+    document.write(x==y);
+    document.write('<br />');
+    document.write(x===y);
+    document.write('<br />');
+    document.write(x!==y);
+
+    document.write('<br />');
+    document.write('--------------');
+    document.write('<br />');
+
+    document.write(x>y || y>z);
+    document.write('<br />');
+    document.write(x>y || y<z);
+    document.write('<br />');
+    document.write(x<y || y>z);
+    document.write('<br />');
+    document.write(x<y || y<z);
+    
+    document.write('<br />');
+    document.write('--------------');
+    document.write('<br />');
+
+    switch(x){
+        case 10:
+        document.write("1");
+        break;
+        case 20:
+        document.write("2");
+        break;
+        case 30:
+        document.write("3");
+        break;
+        case 40:
+        document.write("4");
+        break;
+        default:
+        document.write('ok');
+    }
+
+    document.write('<br />');
+    document.write('--------------');
+    document.write('<br />');
+
+    for(var x = 10; x<=15; x++){
+        document.write('Hello World<br />')
+    }
+
+    
+</script>
+
+</body>
+</html>
